@@ -1,0 +1,5 @@
+A simple Heroku job scaler. It adds a task that will scale your worker processes up when you have jobs to process.
+
+To generate what the rake task needs, just do 'rails g hjq:install'.
+
+Then in your Herkou scheduler, the task that needs to be processed is 'rake hjq:process_queued_jobs'. So far the rake task will not process jobs properly. Still a work in progress.

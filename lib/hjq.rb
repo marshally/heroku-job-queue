@@ -1,6 +1,6 @@
-require 'sidekiq'
 require 'active_record'
 require 'rails'
+require 'sidekiq'
 
 module HJQ
   class HJQ
