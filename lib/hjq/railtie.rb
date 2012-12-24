@@ -1,4 +1,4 @@
-require 'heroku-job-queue'
+require 'hjq'
 require 'rails'
 
 module HerokuJobQueue
