@@ -17,7 +17,7 @@ module HJQ
       end
 
       def copy_migrations
-          migration_template "create_job_queue.rb", "db/migrate/create_job_queue.rb"
+        migration_template "create_job_queue.rb", "db/migrate/create_job_queue.rb"
       end
     end
   end
