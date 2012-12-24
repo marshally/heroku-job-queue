@@ -1,4 +1,4 @@
-module HerokuJobQueue
+module HJQ
   # == Schema Information
   #
   # Table name: job_queues

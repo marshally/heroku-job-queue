@@ -1,6 +1,6 @@
 require 'rails/generators/migration'
 
-module HerokuJobQueue
+module HJQ
   module Generators
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration
